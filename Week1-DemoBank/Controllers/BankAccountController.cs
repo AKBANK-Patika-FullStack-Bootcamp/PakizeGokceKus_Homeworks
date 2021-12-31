@@ -20,7 +20,7 @@ namespace DemoBank.Controllers
             new BankAccount{id=2,InternationalBankAccountNumber="2324324234254",BankAccountType=BankAccountType.EuroHesabı.ToString(),BankAccountLimit=50000,Balance=40000,DateTime=new DateTime(2018,11,12)},
             new BankAccount{id=3,InternationalBankAccountNumber="2324452566654",BankAccountType=BankAccountType.DolarHesabı.ToString(),BankAccountLimit=150000,Balance=533335,DateTime=new DateTime(2021,02,15)},
             new BankAccount{id=4,InternationalBankAccountNumber="2453453454354",BankAccountType=BankAccountType.AltınHesabı.ToString(),BankAccountLimit=1000,Balance=5,DateTime=new DateTime(2015,12,30)},
-            new BankAccount{id=5,InternationalBankAccountNumber="1234343434655",BankAccountType=BankAccountType.TlHesabı.ToString(),BankAccountLimit=45000,Balance=43535,DateTime=new DateTime(2013,10,23)},
+            new BankAccount{id=5,InternationalBankAccountNumber="1234343434655",BankAccountType=BankAccountType.TlHesabı.ToString(),BankAccountLimit=45000,Balance=43535,DateTime=new DateTime(2020,12,15)},
         };
 
         //Kişiye ait tüm hesapları listeler
@@ -64,7 +64,7 @@ namespace DemoBank.Controllers
 
         //Hesap silme işlemini gerçekleştirir
         [HttpDelete("{id}")]
-        public IActionResult DeleteBook(int id)
+        public IActionResult DeleteBankAccount(int id)
         {
             var bankAccount = BankAccountList.SingleOrDefault(x => x.id == id);
             if (bankAccount is null)
