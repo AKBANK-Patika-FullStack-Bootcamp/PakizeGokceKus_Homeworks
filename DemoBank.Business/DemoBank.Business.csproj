@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoBank.DataAccess\DemoBank.DataAccess.csproj" />
+    <ProjectReference Include="..\DemoBank.Entities\DemoBank.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
