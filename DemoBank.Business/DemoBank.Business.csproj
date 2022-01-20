@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DemoBank.DataAccess\Week4-DemoBank.DataAccess.csproj" />
-    <ProjectReference Include="..\DemoBank.Entities\Week4-DemoBank.Entities.csproj" />
+    <ProjectReference Include="..\DemoBank.DataAccess\DemoBank.DataAccess.csproj" />
+    <ProjectReference Include="..\DemoBank.Entities\DemoBank.Entities.csproj" />
   </ItemGroup>
 
 </Project>

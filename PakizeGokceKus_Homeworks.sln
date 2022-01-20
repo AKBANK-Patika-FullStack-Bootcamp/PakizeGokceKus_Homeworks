@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2-PostmanTest", "Week2-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{99391A05-99E5-4B37-8031-D104751549E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4-DemoBank.Entities", "DemoBank.Entities\Week4-DemoBank.Entities.csproj", "{3B0E8170-EEE6-4C44-AE78-9E2A787FF5E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Entities", "DemoBank.Entities\DemoBank.Entities.csproj", "{3B0E8170-EEE6-4C44-AE78-9E2A787FF5E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4-DemoBank.DataAccess", "DemoBank.DataAccess\Week4-DemoBank.DataAccess.csproj", "{6DD9190C-E810-4E74-AE40-3E4C27FA47AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.DataAccess", "DemoBank.DataAccess\DemoBank.DataAccess.csproj", "{6DD9190C-E810-4E74-AE40-3E4C27FA47AB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-BankDemo", "BankDemo\Week-BankDemo.csproj", "{E75DFE40-33A3-47B1-B239-DDCE10275598}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4-DemoBank.Business", "DemoBank.Business\Week4-DemoBank.Business.csproj", "{759D59A0-AB4B-4E02-AA35-BDC939F7E99D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Business", "DemoBank.Business\DemoBank.Business.csproj", "{759D59A0-AB4B-4E02-AA35-BDC939F7E99D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
