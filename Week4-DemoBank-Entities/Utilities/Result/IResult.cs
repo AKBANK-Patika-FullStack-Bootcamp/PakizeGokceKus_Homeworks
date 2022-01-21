@@ -1,0 +1,8 @@
+﻿namespace Week4_DemoBank_Entities.Utilities.Result
+{
+    public interface IResult
+    {
+        bool Success { get; }
+        string Message { get; }
+    }
+}

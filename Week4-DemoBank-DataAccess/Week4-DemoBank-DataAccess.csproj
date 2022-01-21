@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Week4_DemoBank_DataAccess</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DemoBank.Entities\DemoBank.Entities.csproj" />
+    <ProjectReference Include="..\Week4-DemoBank-Entities\Week4-DemoBank-Entities.csproj" />
   </ItemGroup>
 
 </Project>

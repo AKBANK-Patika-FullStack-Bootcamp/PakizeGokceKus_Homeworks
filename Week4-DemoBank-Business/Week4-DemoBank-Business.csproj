@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Week4_DemoBank_Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Week4-DemoBank-DataAccess\Week4-DemoBank-DataAccess.csproj" />
+    <ProjectReference Include="..\Week4-DemoBank-Entities\Week4-DemoBank-Entities.csproj" />
+  </ItemGroup>
+
+</Project>
