@@ -8,11 +8,8 @@ using Week4_DemoBank_Entities.Concrete;
 
 namespace Week4_DemoBank_DataAccess.Abstract
 {
-    public interface IBankAccountDal
+    public interface IBankAccountDal : IEntityRepository<BankAccount>
     {
-        public interface IBankAccountDal : IEntityRepository<BankAccount>
-        {
 
-        }
     }
 }

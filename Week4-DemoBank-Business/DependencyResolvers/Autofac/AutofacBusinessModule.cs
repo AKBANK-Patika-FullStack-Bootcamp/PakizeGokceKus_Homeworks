@@ -13,7 +13,7 @@ namespace Week4_DemoBank_Business.DependencyResolvers.Autofac
         {
             //Autofac kullanılmıştır
             //builder.RegisterType<UserManager>().As<IUserService>();
-           // builder.RegisterType<BankAccountManager>().As<IBankAccountService>();
+            builder.RegisterType<BankAccountManager>().As<IBankAccountService>();
             builder.RegisterType<EfBankAccountDal>().As<IBankAccountDal>();
         }
     }
