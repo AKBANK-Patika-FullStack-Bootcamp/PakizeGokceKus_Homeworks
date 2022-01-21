@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Week4_DemoBank</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Week4-DemoBank-Business\Week4-DemoBank-Business.csproj" />
+    <ProjectReference Include="..\Week4-DemoBank-Entities\Week4-DemoBank-Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4-DemoBank-DataAccess",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4-DemoBank-Business", "Week4-DemoBank-Business\Week4-DemoBank-Business.csproj", "{4A3A1F1E-A593-49C2-A736-6A4CFE3BF784}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4-DemoBank", "Week4-DemoBank\Week4-DemoBank.csproj", "{D1ABF86F-A970-4EC6-AB88-F58FB2D12F9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{4A3A1F1E-A593-49C2-A736-6A4CFE3BF784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A3A1F1E-A593-49C2-A736-6A4CFE3BF784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A3A1F1E-A593-49C2-A736-6A4CFE3BF784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1ABF86F-A970-4EC6-AB88-F58FB2D12F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ABF86F-A970-4EC6-AB88-F58FB2D12F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ABF86F-A970-4EC6-AB88-F58FB2D12F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ABF86F-A970-4EC6-AB88-F58FB2D12F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
